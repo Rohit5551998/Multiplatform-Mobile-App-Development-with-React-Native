@@ -4,7 +4,6 @@ import { Card, Icon } from 'react-native-elements';
 import { connect } from 'react-redux';
 import { baseUrl } from '../shared/baseUrl';
 import { postFavorite } from '../redux/ActionCreators'; 
-import { favorites } from '../redux/favorites';
 
 const mapStateToProps = state => {
     return {
